@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <BaseOutputPath></BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="D:\source\repos\ModelBuilder\src\ModelBuilder.MeshRepair\Win32\Debug\ModelBuilder.MeshRepair.dll" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="geometry3Sharp" Version="1.0.324" />
+    <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ModelBuilder.Core\ModelBuilder.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="x64\" />
+  </ItemGroup>
+
+</Project>

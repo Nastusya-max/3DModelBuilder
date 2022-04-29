@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ModelBuilder.Surfaces.DicomSurface.UnitTests": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
