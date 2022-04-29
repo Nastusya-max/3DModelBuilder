@@ -18,8 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\ModelBuilder.Builders.DualContouring\ModelBuilder.Builders.DualContouring.csproj" />
-    <ProjectReference Include="..\..\src\ModelBuilder.Surfaces.DicomSurface\ModelBuilder.Surfaces.DicomSurface.csproj" />
+    <ProjectReference Include="..\..\src\ModelBuilder.Builders.DualContouring\Builder.csproj" />
+    <ProjectReference Include="..\..\src\ModelBuilder.Surfaces.DicomSurface\Surfaces.csproj" />
   </ItemGroup>
 
 </Project>

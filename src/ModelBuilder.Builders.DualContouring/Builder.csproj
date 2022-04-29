@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ModelBuilder.Core\ModelBuilder.Core.csproj" />
+    <ProjectReference Include="..\ModelBuilder.Core\Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
